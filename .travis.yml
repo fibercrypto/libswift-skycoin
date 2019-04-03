@@ -2,5 +2,5 @@ language:
   - swift
 osx_image: xcode10.1
 script:
-  - swift build
-  - swift test
+  - (cd ./src/skyapi && swift build)
+  - (cd ./src/skyapi && swift test)
